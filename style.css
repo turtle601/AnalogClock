@@ -1,0 +1,9 @@
+/* 
+class에는 .을,  
+그냥 태그에는 nothing ex: body,
+id 에는 #,
+*/
+body {
+    color: #16a085;
+    background: #212121;  
+}
