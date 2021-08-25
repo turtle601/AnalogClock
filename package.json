@@ -1,0 +1,23 @@
+{
+  "name": "analogclock",
+  "version": "1.0.0",
+  "description": "## 기획 움직이는 아날로그 시계를 웹페이지로 직접 구현해보면서 html, css, javascript를 좀 더 확실하게 배우고 알아가 보자.",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turtle601/AnalogClock.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/turtle601/AnalogClock/issues"
+  },
+  "homepage": "https://github.com/turtle601/AnalogClock#readme"
+}
