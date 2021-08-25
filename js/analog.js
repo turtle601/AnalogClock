@@ -2,6 +2,9 @@ const secHand = document.getElementById("secHand");
 const minHand = document.getElementById("minHand");
 const hourHand = document.getElementById("hourHand");
 
+const leftButton = document.getElementById("left");
+const rightButton = document.getElementById("right");
+
 const makeAngleValue = (angle) => `rotate(${angle}deg)`; 
 
 function clockRun(){
@@ -24,5 +27,10 @@ execute = () => {
     setInterval(clockRun, 1000);
 };
 
-execute();
+rightClick = () => {
+    location.href = "/digital";
+}
 
+rightButton.addEventListener("click", rightClick);
+
+execute();

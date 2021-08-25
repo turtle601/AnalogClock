@@ -4,3 +4,6 @@
 *.docx
 *.pdf
 *.xlsx
+
+# node
+**.node_modules

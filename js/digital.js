@@ -1,6 +1,7 @@
-let digitalClock = document.getElementById("now");
+const digitalClock = document.getElementById("now");
+const leftButton = document.getElementById("left");
 
-function clock(){
+clock = () => {
     const weekList = ["일", "월", "화", "수", "목", "금", "토"];
 
     const date = new Date();
@@ -18,9 +19,15 @@ function clock(){
 
 }
 
-function init(){
+leftClick = () => {
+    location.href = "/";
+}
+
+init = () => {
     clock();
     setInterval(clock,1000); // 1초마다 clock 함수 반복 실행
 }
+
+leftButton.addEventListener("click", leftClick);
 
 init();
