@@ -1,6 +1,11 @@
 const digitalClock = document.getElementById("now");
 const leftButton = document.getElementById("left");
 
+makeTwoNumber = (time) => {
+    time = time < 10 ? "0" + time : time;
+    return time;
+}
+
 clock = () => {
     const weekList = ["일", "월", "화", "수", "목", "금", "토"];
 
@@ -9,11 +14,13 @@ clock = () => {
     const month = date.getMonth();
     const week = date.getDay();
     const day = date.getDate();
-    const hour = date.getHours();
-    const minute = date.getMinutes();
+    let hour = date.getHours();
+    let minute = date.getMinutes();
     let second = date.getSeconds();
 
-    second = second < 10 ? "0" + second : second;
+    second = makeTwoNumber(second);
+    minute = makeTwoNumber(minute);
+    hour = makeTwoNumber(hour);
 
     digitalClock.innerText = `${year}년 ${month + 1}월 ${day}일 ${weekList[week]} 요일 ${hour} : ${minute} : ${second}`;
 

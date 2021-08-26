@@ -20,9 +20,16 @@ h1 {
   font-size: 36px;
 }
 
-#now {
+.square {
   position: relative;
-  top: 100px;
+  border: 2px solid red;
+  width: 700px;
+  height: 200px;
+  margin: 150px auto;
+}
+
+#now {
+  position: absolute;
   text-align: center;
   width: 700px;
   height: 100px;
@@ -34,9 +41,9 @@ h1 {
 
 /* 아이콘 css */
 i {
-  position: relative;
-  top: 200px;
-  left: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
   text-align: center;
   width: 64px;
   height: 64px;
