@@ -16,14 +16,12 @@ h1 {
 
   height: 60px;
   line-height: 60px;
-  border: 2px solid greenyellow;
   margin: 0 auto;
   font-size: 36px;
 }
 
 .square {
   position: relative;
-  border: 2px solid greenyellow;
   width: 700px;
   margin: 150px auto;
   display: flex;
@@ -36,7 +34,6 @@ h1 {
   /* align-items: center; */
   height: 300px;
   width: 300px;
-  border: 2px solid greenyellow;
   border-radius: 75px;
   margin: 0 auto;
 
@@ -57,7 +54,6 @@ h1 {
   background: #16a085;
   height: 40px;
   width: 40px;
-  border: 2px solid red;
   border-radius: 180px;
 
   margin: auto;
@@ -69,7 +65,6 @@ h1 {
   background: #212121;
   width: 15px;
   height: 15px;
-  border: 2px solid red;
   border-radius: 180px;
 }
 
@@ -78,7 +73,6 @@ h1 {
   text-align: center;
   height: 30px;
   width: 30px;
-  border: 2px solid red;
   font-size: 30px;
   font-weight: bold;
 }
@@ -180,7 +174,6 @@ h1 {
   bottom: 150px;
   height: 70px;
   width: 10px;
-  border: 2px solid red;
   margin: 0 auto;
   transform-origin: bottom;
   z-index: 1;
@@ -194,7 +187,6 @@ h1 {
   bottom: 150px;
   height: 100px;
   width: 10px;
-  border: 2px solid red;
   margin: 0 auto;
   transform-origin: bottom;
 }
@@ -215,7 +207,6 @@ i.fas {
   text-align: center;
   width: 64px;
   height: 64px;
-  border: 2px solid greenyellow;
   margin: 0 auto;
   font-size: 64px;
 }
