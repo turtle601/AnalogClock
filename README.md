@@ -20,11 +20,11 @@
 ## 프로토 타입
 
 - index.html (아날로그 시계 + 공부시간, 쉬는 시간 측정)
-
-<img width="851" alt="스크린샷 2021-08-22 오후 2 42 58" src="https://user-images.githubusercontent.com/78203399/130343900-76f33b41-221d-4df1-b966-fd2e16e5d29f.png">
+<img width="735" alt="스크린샷 2021-09-01 오후 7 30 25" src="https://user-images.githubusercontent.com/78203399/131656721-24995872-8264-4961-9cc8-55c4644677d9.png">
 
 - digital.html (디지털 시계)
+<img width="658" alt="스크린샷 2021-09-01 오후 7 35 05" src="https://user-images.githubusercontent.com/78203399/131657009-480ce512-66ad-469d-bde0-8b474a7508ff.png">
 
-<img width="882" alt="스크린샷 2021-08-22 오후 2 44 09" src="https://user-images.githubusercontent.com/78203399/130343945-1c2182d4-d40e-4537-a29b-e541869350fe.png">
 
 - todo.html (todoList)
+<img width="626" alt="스크린샷 2021-09-01 오후 7 33 51" src="https://user-images.githubusercontent.com/78203399/131656849-ba446e93-9fc7-423a-94db-af307af6ae88.png">
