@@ -1,0 +1,49 @@
+/* 
+class에는 .을,  
+그냥 태그에는 nothing ex: body,
+id 에는 #,
+*/
+body {
+  color: #16a085;
+  background: #212121;
+}
+
+h1 {
+  position: relative;
+  top: 100px;
+  text-align: center;
+  width: 200px;
+  height: 60px;
+  line-height: 60px;
+  margin: 0 auto;
+  font-size: 36px;
+}
+
+.square {
+  position: relative;
+  width: 700px;
+  height: 200px;
+  margin: 150px auto;
+}
+
+#now {
+  position: absolute;
+  text-align: center;
+  width: 700px;
+  height: 100px;
+  line-height: 100px;
+  margin: 0 auto;
+  font-size: 36px;
+}
+
+/* 아이콘 css */
+i {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  width: 64px;
+  height: 64px;
+  font-size: 64px;
+  cursor: pointer;
+}
