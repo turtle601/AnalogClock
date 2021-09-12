@@ -4,11 +4,13 @@
   "description": "## 기획 움직이는 아날로그 시계를 웹페이지로 직접 구현해보면서 html, css, javascript를 좀 더 확실하게 배우고 알아가 보자.",
   "main": "app.js",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
